@@ -5,14 +5,16 @@ Olá! Este repositório terá a documentação das tarefas, que estou criando no
 Este repositório não irei abordar de forma tão abrangente sobre os assuntos abaixo. É mais para ter um histórico do que estou desenvolvendo e anotando sobre o bootcamp e ter salvo remotamente, para eventual consulta. Caso deseja saber mais sobre os conteúdos do bootcamp, acesse o bootcamp ou os cursos no site da DIO. Alguns conteúdos podem sofrer alteração ou remoção ou não serem inclusos, sem prévio aviso. 
 
 DIO (diaiou - pronúncia em inglês) = 
-Descobrimento
-Interatividade
-Oportunidade
+
+* Descobrimento
+* Interatividade
+* Oportunidade
 
 3 Dicas de Ouro: 
-Autonomia
-Protagonismo
-Gestão de Tempo
+
+* Autonomia
+* Protagonismo
+* Gestão de Tempo
 
 ## Sobre o bootcamp
 
@@ -20,8 +22,6 @@ Este é o primeiro bootcamp sobre Banco de Dados da DIO para profissionais que p
 
 ## Conteúdo
 
-* [Seja Protagonista nesse Bootcamp](Lógica%20de%20Programação%20Essencial/)
-* [Estrutura de Dados e Algorítmos](Estrutura%20de%20Dados%20e%20Algorítmos/)
-* [Introdução ao Git e ao GitHub](Introdução%20ao%20Git%20e%20ao%20GitHub/)
-  * BONUS: [Como renomear de "master" para "main"?](Introdução%20ao%20Git%20e%20ao%20GitHub/Renomear%20Branch/README.md)
+* [Seja Protagonista nesse Bootcamp](Seja%20Protagonista%20nesse%20Bootcamp/)
+* [Introdução ao Desenvolvimento Moderno de Software](Introdução%20ao%20Desenvolvimento%20Moderno%20de%20Software/)
 * 
