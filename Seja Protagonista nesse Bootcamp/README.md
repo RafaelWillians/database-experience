@@ -61,19 +61,21 @@ https://www.c-sharpcorner.com/blogs/sum-of-two-numbers-using-single-variable
 
 Basta atribuir ao X duas chamadas de um mesmo método em que faz a leitura do número e somá-los:
 
-1. class Program {  
-2.     static int x = 0;  
-3.     private static int Get_Set() {  
-4.         Console.WriteLine("Enter numbers");  
-5.         x = Convert.ToInt32(Console.ReadLine());  
-6.         return x;  
-7.     }  
-8.     static void Main(String[] a) {  
-9.         x = Get_Set() + Get_Set();  
-10.         Console.WriteLine("Sum of ttwo nos is - " + x);  
-11.         Console.ReadKey();  
-12.     }  
-13. }
+```
+class Program {  
+    static int x = 0;  
+    private static int Get_Set() {  
+        Console.WriteLine("Enter numbers");  
+        x = Convert.ToInt32(Console.ReadLine());  
+        return x;  
+    }  
+    static void Main(String[] a) {  
+        x = Get_Set() + Get_Set();  
+        Console.WriteLine("Sum of ttwo nos is - " + x);  
+        Console.ReadKey();  
+    }  
+} 
+```
 
 ## Exemplo de um desafio JavaScript na prática
 
