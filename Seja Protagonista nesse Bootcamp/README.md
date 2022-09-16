@@ -90,7 +90,7 @@ Prática importante, em que pode nos destacar em uma entrevista técnica.
 
 Há o recurso de Labs, em que é possível criar e aprimorar o portfólio isoladamente, sem precisar de bootcamp.
 
-Mostra um projeto de exemplo, de criação de Pokedex usando a API do Pokémon.
+Mostra um projeto de exemplo, de criação de Pokédex usando a API do Pokémon.
 Lá mostra que há projetos em que sugerem "forkar" o repositório de um projeto existente, trazendo o código para o nosso repositório e nós usarmos como base para o nosso projeto.
 No curso de Git/GitHub tem mais informações sobre como fazer.
 
@@ -110,7 +110,7 @@ Manter currículo/perfil atualizado na DIO.
 
 ## Links Úteis
 
-Central de Ajuda
-Artigos
-Rooms
-Live Codings - todas as quartas-feiras
+[Central de Ajuda](https://help.dio.me/pt-BR/)
+[Artigos](https://web.dio.me/articles)
+[Rooms](https://web.dio.me/rooms)
+[Live Codings](https://web.dio.me/live-coding) - todas as quartas-feiras
