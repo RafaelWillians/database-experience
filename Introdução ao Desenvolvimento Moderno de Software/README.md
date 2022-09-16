@@ -33,7 +33,7 @@ Visa melhorar a satisfação do cliente, melhorando a usabilidade, acessibilidad
 Pensar sobre o que fazer com que o software encante o cliente.
 Como será visualmente o nosso produto tela-a-tela, para encantarmos o cliente?
 
-Ferramentas: Figma, Adobe XP, entre outras.
+Ferramentas: [Figma](https://www.figma.com/), [Adobe XD](https://www.adobe.com/br/products/xd.html), entre outras.
 
 Funções: Pesquisas sobre as tendências de mercado sobre a experiência de usuário, criação de Protótipos de telas do produto, entender quem são as Personas (as pessoas, os usuários) do produto, e entender os Objetivos da aplicação.
 Trabalha na experiência de usuário, sobre como conceitualmente deve ser o uso do produto para o cliente.
@@ -47,7 +47,7 @@ Trabalha no design do produto em si.
 
 Funções: Design, Tipografia, Cores, Layouts
 
-Ferramentas: Invision, Visio, Adobe XD, Figma
+Ferramentas: [Invision](https://www.invisionapp.com/), [Visio](https://www.microsoft.com/visio), [Adobe XD](https://www.adobe.com/br/products/xd.html), [Figma](https://www.figma.com/)
 
 ## Front End
 
@@ -76,20 +76,20 @@ A grosso modo, é um facilitador.
 Traz diversas soluções prontas para facilitar o trabalho do desenvolvedor.
 A atuação do programador pode ter muito da parte criativa, mas também muita repetição, o que seria complicado sem facilitadores.
 
-Exemplos: Angular, Laravel e VUE
+Exemplos: [Angular](https://angular.io/), [Laravel](https://laravel.com/) e [VUE](https://vuejs.org/)
 
 ## Back End
 
 Programa a parte funcional do site ou aplicativo (funções, cálculos, queries, etc.), ou a "parte de trás" da aplicação.
 Normalmente trabalha com a ponte entre os dados, aplicando devidamente as regras de negócio, validações e garantias em um ambiente que o usuário final não terá acesso.
-Exemplos de linguagens utilizadas: Java, PHP, C#.
+Exemplos de linguagens utilizadas: [Java](https://www.java.com/), [PHP](https://www.php.net/), [C#](https://docs.microsoft.com/pt-br/dotnet/csharp/).
 
 ## API (ou Application Programming Interface)
 
 Serve como um intermediário, que permite que dois softwares conversem entre si.
 Obs.: devemos pensar também na questão de segurança ao utilizarmos APIs, pois há formas dos usuários ou pessoas má-intencionadas burlarem a API e utilizarem de forma indevida a mesma.
 
-Exemplo de API: pokeapi.co
+Exemplo de API: [pokeapi.co - API de Pokémon](pokeapi.co)
 
 ## Full Stack
 
@@ -111,11 +111,11 @@ Nuvem Privada (também pode ser chamado de on-premises datacenter): quando a emp
 Características e necessidades: Segurança da Tecnologia da Informação (lógica e física), Mão de obra especializada, Infraestrutura local.
 
 Nuvem Pública: quando terceirizamos a infraestrutura dos servidores ou terceirizamos partes dessa infraestrutura).
-Exemplos: Amazon Web Services (AWS), Microsoft Azure, Oracle, Salesforce, entre outros.
+Exemplos: [Amazon Web Services (AWS)](https://aws.amazon.com/), [Microsoft Azure](azure.microsoft.com), [Oracle](https://oracle.com/), [Salesforce](https://salesforce.com/), entre outros.
 Vantagens: Preço (pague somente o que usar), facilidade de contratação, configuração e infraestrutura; escalabilidade e performance.
 Outra vantagem, vendo os serviços do Azure e da AWS, é também a facilidade na customização e amplo catálogo de serviços e tecnologias disponíveis, não limitado apenas a IaaS.
 
-Exemplos de serviços disponibilizados por terceiros (informações também disponíveis no curso de SC-900):
+Exemplos de serviços disponibilizados por terceiros (informações também disponíveis no curso de [SC-900](https://docs.microsoft.com/pt-br/certifications/exams/sc-900)):
 IaaS - Infrastructure as a Service
 PaaS - Platform as a Service
 SaaS - Software as a Service
@@ -135,12 +135,12 @@ Vídeo interessante resumindo 50 serviços do AWS:
 
 Para mobile, precisamos pensar também quanto a responsividade da aplicação, ou como a aplicação vai se comportar em dispositivos das mais diversas versões do Android e iOS, resoluções, entre outras questões.
 
-Exemplos de ferramentas: Android Studio, Xcode.
-Exemplos de linguagens utilizadas: Java, Kotlin, Swift.
+Exemplos de ferramentas: [Android Studio](https://developer.android.com/studio), [Xcode](https://developer.apple.com/xcode/).
+Exemplos de linguagens utilizadas: [Java](https://www.java.com/), [Kotlin](https://developer.android.com/kotlin), [Swift](https://developer.apple.com/swift/).
 
 Há também o desenvolvimento híbrido, em que embarcamos uma aplicação web para ambos os dispositivos.
 Porém há suas desvantagens. Não é recomendado por exemplo o desenvolvimento híbrido para jogos por exemplo, pois pode pecar na questão performance.
-Exemplos de tecnologias: Ionic, Flutter, React Native.
+Exemplos de tecnologias: [Ionic](https://ionicframework.com/), [Flutter](flutter.dev), [React Native](https://reactnative.dev/).
 
 ## Conclusão
 
