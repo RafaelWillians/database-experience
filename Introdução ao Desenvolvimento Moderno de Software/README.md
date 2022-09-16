@@ -128,7 +128,8 @@ Não apenas projeta sistemas ou ambientes de TI, escolhe também quais tecnologi
 ## A Tech!
 
 Vídeo interessante resumindo 50 serviços do AWS:
-https://youtu.be/JIbIYCM48to
+
+[![Top 50+ AWS Services Explained in 10 Minutes](http://img.youtube.com/vi/JIbIYCM48to/0.jpg)](http://www.youtube.com/watch?v=JIbIYCM48to "Top 50+ AWS Services Explained in 10 Minutes")
 
 ## Mobile
 
