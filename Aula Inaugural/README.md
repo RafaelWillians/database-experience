@@ -24,3 +24,37 @@ Os maiores especialistas tech do Brasil
 * +1.500.000 bolsas de estudos distribuídas
 * +17.000.000 horas de experiências educativas
 
+## Sobre o programa
+
+* Duração até 25/Setembro/2022
+* Atividades práticas
+* 3 mentorias ao vivo
+* Fórum
+* Rooms
+* 54 horas de conteúdo
+* Micro learning
+
+## Stack de tecnologia
+
+* Git
+* GitHub
+* MySQL
+* MongoDB
+
+## Metodologia Bootcamp
+
+A DIO atribui prazos para termos convívio com uso de deadlines nas entregas dos projetos.
+
+* Desenvolvimento de projetos
+* Experiência de aprendizagem gamificada
+* Sair da zona de conforto
+* Produções reais e imersivas (prazos reais)
+* Competição e desafios práticos de código
+* Comunidade colaborativa
+
+## [Link do Suporte Técnico](help.dio.me)
+
+
+
+
+
