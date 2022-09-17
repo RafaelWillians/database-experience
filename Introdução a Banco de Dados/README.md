@@ -48,13 +48,189 @@ Na Amazon por exemplo, 60 milhões de usuários, 42TB, SGBD distribuído.
 
 ## SGBDs - Sistemas de Gerenciamento de Banco de Dados
 
+### Definição
+
+Quando pensamos em SGBD (DBMS - Database Management System em inglês), pensamos em um software de propósito geral.
+
+Precisamos definir quais tipos de dados serão persistidos, a estrutura e as constraints.
+
+Constraints = regras
+
+### Construção
+
+Pensamos na construção em si da base de dados, a inserção dos dados.
+
+### Manipulação
+
+Pensamos na parte da manipulação de dados em si, seja por exemplo para recuperação desses dados, seja para emissão de relatórios.
+
+### Compartilhamento
+
+Quem pode acessar e como podem acessar?
+
+Gerenciamento dos acessos e da simultaneidade neste acesso.
+
+Além desses pontos, temos que pensar na Proteção e no Ciclo de vida de longo prazo da base de dados.
+
+O SGBD é um software modular.
+
+Exemplo de uma estrutura em um projeto de software.
+
+![db.png](/Imagens\db.png)
+
+### Metadados
+
+Informações que fornecem uma descrição concisa dos dados na base.
+
+As bases de dados são persistidos em arquivos. Mas precisamos pensar em como iremos estruturar esses dados, como serão manipulados, qual tipo de estrutura irá atender melhor as necessidades dessas manipulações dos dados.
+
+Quando é realizado um update no banco por exemplo, por padrão o banco de dados realiza o bloqueio e a liberação das tabelas.
+
 ## Breve história dos SGBDs
+
+A ideia de gerenciamento de banco de dados surgiu em meados de 1960. O conceito de dados relacionais em meados de 1970. Com intuito de diminuir custo com pessoal.
+
+Na época, tínhamos Modelos baseados em sistemas de arquivos, como modelo em rede, modelo hierárquico e modelo relacional.
+
+Modelo relacional foi criado por Ted Codd.
+
+IBM criou o Sistema R, com base em DB2.
+
+### Cronologia
+
+![timeline1](/Imagens\timeline1.png)
+
+![](/Imagens/timeline2.png)
+
+### Modelo Hierárquico
+
+IMS - Information Management System
+
+* Buscas de Registros: temos os dados e os links, quais dados se "amarram" uns nos outros
+* TAD tree - com raíz
+
+Utilizado no BDDBase, Cobol, Clipper, Fox Pro, entre outros.
+
+Exemplo de modelo hierárquico:
+
+![hierarquico](/Imagens\hierarquico.png)
+
+### Modelo em rede
+
+* Links - Ponteiros entre nós.
+* Surgiu em 1964.
+* Relacionamento N:M
+
+Exemplo de modelo em rede:
+
+![rede](/Imagens\rede.png)
+
+Por que da criação do modelo relacional? Os modelos acima não são aplicáveis em todos os casos e são mais complexos. 
+
+O modelo relacional trouxe aplicabilidade mais vasta e transparência do sistema. 
 
 ## Modelo de Banco de Dados Relacional
 
+* Álgebra relacional
+* Relações
+* TAD para armazenamento
+* Transparência
+
+Surgiu em meados de 1970.
+
+Temos dois tipos de usuários: o usuário convencional e o DBA.
+
+O DBA irá definir as tabelas, estruturas, constraints do banco de dados e os comandos traduzidos pelo processador LDD - Linguagem de Definição de Dados.
+
+Temos também o Designer de Banco de Dados, que irá auxiliar o DBA na modelagem de alto nível (definição de entidades, constraints, etc.) do banco de dados.
+
+Como o BD entende o LDD?
+
+A query precisa ser compilada, é encaminhada a um mecanismo de execução das queries, depois para um gerenciador e daí então retornar as informações (metadados e schemas).
+
+Características:
+
+* Altera e extrai informações;
+* Duráveis (as modificações são duráveis);
+* Transações são agrupadas para execução.
+
+### Storage e Buffer
+
+* Gerenciador de armazenamento;
+* Gerenciador de buffer.
+
+É apenas um SGBD em operação? Nope!
+
+Pode haver mais de um SGBD na mesma empresa e, para isso, necessitamos de integração entre esses SGBDs.
+
+### Abordagens para Integração de SGBDs
+
+* Repositórios centralizados;
+* Mediadores (Middleware).
+
+Exemplo de integração:
+
+![sibbr](/Imagens\sibbr.png)
+
 ## SGBDs mais utilizados no mercado
 
+* [Oracle](https://oracle.com/)
+
+Arquitetura já voltada para grandes corporações, projetado para maior performance. Uma reserva muito grande no mercado corporativo. Alta escalabilidade e confiabilidade.
+
+* [MySQL](mysql.com)
+
+Também mantido pela Oracle, porém é solução voltada para código aberto. Bem leve e mais utilizado para soluções web. Tem boa integração com PHP.
+
+* [Microsoft SQL Server](https://microsoft.com/sql-server)
+
+Plataforma mais abrangente, tendo ferramentas voltadas para integração com BI.
+
+* [PostgreSQL](postgresql.org)
+
+Primeira escolha para desenvolvedores que utilizam algumas linguagens, como Python.
+
+* [mongoDB](mongodb.com)
+
+SGBD NoSQL. Armazena dados em blocos. Voltado para armazenamento de documentos.
+
+* [Redis](redis.io)
+
+SGBD No SQL. Orientado a chave-valor. Performático, escalável. Pensado para  acesso a dados com rapidez.
+
+* [ElasticSearch](elastic.co)
+
+Armazena os dados de forma centralizada. Interface simples, estrutura via HTTP. Utiliza JSON.
+
+* Access
+
+Mais simples, acessível, tem integração com o pacote Office.
+
+* MariaDB
+
+Projeto derivado do MySQL. Método de consulta mais otimizado que o MySQL.
+
+* Cassandra
+
+Banco NoSQL, open source, baseado em colunas. Para gerenciamento de larga escala. Inicialmente desenvolvido pelo Facebook.
+
+Ranking: https://db-engines.com/en/ranking
+
+Características dos mais utilizados no mercado
+
+* Popularidade
+* Tempo de mercado
+* Documentação
+* Robustez
+* Confiabilidade
+* Segurança
+* Multiplataforma
+
 ## A era dos dados e o futuro da modelagem
+
+
+
+HPC = High Performance Computing
 
 ## Novo cenário e novas tecnologias
 
