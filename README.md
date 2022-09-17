@@ -24,4 +24,5 @@ Este é o primeiro bootcamp sobre Banco de Dados da DIO para profissionais que p
 
 * [Seja Protagonista nesse Bootcamp](Seja%20Protagonista%20nesse%20Bootcamp/)
 * [Introdução ao Desenvolvimento Moderno de Software](Introdução%20ao%20Desenvolvimento%20Moderno%20de%20Software/)
-* 
+* [Aula Inaugural](Aula%20Inaugural/)
+
