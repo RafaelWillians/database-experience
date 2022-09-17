@@ -26,4 +26,5 @@ Este é o primeiro bootcamp sobre Banco de Dados da DIO para profissionais que p
 * [Introdução ao Desenvolvimento Moderno de Software](Introdução%20ao%20Desenvolvimento%20Moderno%20de%20Software/)
 * [Aula Inaugural](Aula%20Inaugural/)
 * [Introdução a Banco de Dados](Introdução%20a%20Banco%20de%20Dados/)
+* [Sistemas de Gerenciamento de Banco de Dados](Sistemas%20de%20Gerenciamento%20de%20Banco%20de%20Dados/)
 
