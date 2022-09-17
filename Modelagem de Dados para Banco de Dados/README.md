@@ -85,7 +85,7 @@ id_periodico
 
 #### Diagrama (feito no [Lucid](lucid.app))
 
-![diagramaPesquisador-Artigo](/Imagens\diagramaPesquisador-Artigo.png)
+![diagramaPesquisador-Artigo](Imagens\diagramaPesquisador-Artigo.png)
 
 #### SQL
 
