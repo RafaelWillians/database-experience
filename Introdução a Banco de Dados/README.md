@@ -228,9 +228,159 @@ Características dos mais utilizados no mercado
 
 ## A era dos dados e o futuro da modelagem
 
+Papel central - sistemas corporativos
 
+Requisições comuns:
 
-HPC = High Performance Computing
+* MIN/MAX
+* COUNT
+* MÉDIA
+* SOMA
+
+### Pesquisa
+
+* Número de tarefas computacionais;
+* Quantidade de dados;
+* Heterogeneidade;
+* Computação paralela e distribuída.
+
+Exemplos:
+
+* Pesquisa de clima;
+* Mapeamento de galáxias, supernovas e padrões (6.6TB/dia, mais e 400 cientistas, 25 instituições)
+
+### 4º Paradigma
+
+* Instrumentos e simulações que geram grande volume de dados
+* Novo modelo: base na análise e exploração de dados (e-Ciência)
+
+Paradigmas ao longo do tempo:
+
+* Ciência empírica (até meados de 1600);
+* Ciência teórica (até meados de 1950);
+* Ciência computacional (até meados dos anos 2000);
+* Ciência orientada a dados ((Big) Data-driven Science) - (de 2000 em diante).
+
+#### Requisitos
+
+* Composição
+* Execução
+* Análise
+* Reutilização
+* Reprodutividade
+* Abstração
+* Escalabilidade
+
+#### Experimentos realizados em larga escala
+
+* Paralelismo
+
+Múltiplos processadores operando concorrentemente.
+
+* Big Data
+
+Processamento paralelo de dados persistentes e particionados.
+
+* Cloud
+
+Recursos de terceiros - soluções de tecnologia como serviço (AWS, Azure, etc).
+
+#### HPC - High Performance Computing
+
+* Nós de processamento;
+* Sistema de arquivos paralelos - sem persistência;
+* Modelos: MPI, OpenMP, OpenCL;
+* Acesso: HFF5 e NetCDF.
+
+#### Big Data
+
+* Process e Storage: nós de processamento;
+* Sistema de arquivos paralelos - persistente;
+* Modelos: MapReduce, Spark, SGBDs paralelos.
+
+Em resumo a diferença entre os dois é que o HPC não persiste os dados, enquanto o Big Data persiste.
 
 ## Novo cenário e novas tecnologias
 
+* Carreira tech em Data;
+* Data-driven;
+* Novos modelos de SGBDs (exemplo: noSQL).
+
+### Engenheiro de dados
+
+* Desenho/construção
+* Sustentação das soluções de dados
+
+O engenheiro de dados extrai os dados de fontes heterogêneas e disponibiliza os dados aos consumidores dos mesmos, analistas e cientistas.
+
+### Cientista de dados
+
+* Modelagem
+* Reconhecimento de padrões / predição
+
+Busca responder perguntas atreladas ao contexto do negócio. Buscando insights através de técnicas de modelagens.
+
+### Analista de dados
+
+* Criação de dashboards
+* Apresentação visual dos dados
+
+Busca entender o comportamento do negócio a partir dos dados. Faz o diagnóstico, identifica os motivos dos comportamentos e analista métricas.
+
+### Data-driven
+
+Setores estratégicos da empresa, como de gerenciamento e marketing, utilizam essa abordagem do Data-driven. Focado no cliente.
+
+Análise e Interpretação.
+
+Analise > Entenda > Decida
+
+### Modelos NoSQL
+
+Ao longo do tempo, conforme as coisas evoluiram, o modelo relacional deixou de preencher algumas lacunas, deixou de atender de forma satisfatória alguns cenários. E esses cenários que o NoSQL procura atender.
+
+NoSQL = Not only SQL
+
+#### Orientado a Documentos (exemplo: mongoDB)
+
+* Baixa curva de aprendizado
+* Baseado em JSON
+* Escalabilidade horizontal
+* Multiplataforma
+* Transações ACID para multidocumento
+* Consultas suportam JavaScript
+
+#### Wide-columns (Orientado a Colunas - exemplo: Cassandra)
+
+* Origem: Facebook
+* Open-source em 2018
+* Performático
+* Descentralizado
+* Consultas: CQL
+
+#### Key-Value (exemplo - Redis)
+
+* 2009 - estrito em C
+* Compatível com outras linguagens
+* Performático
+* Suporte a: strings, lists, maps, sets, JSON, graphs, entre outros.
+
+#### Grafos (exemplo - Neo4J)
+
+* 2007 - escrito em Java
+* TAD: grafos
+* Cypher: query para grafos
+* Data science
+* Compatível com Python, NodeJS, GO, .NET e Java
+
+#### Orientado a Objetos (db4objects)
+
+* 2008 - open-source
+* Escrito em .NET e Java
+* Cross-platform
+
+#### Outros exemplos de DB e Cloud
+
+* Bancos de dados como serviço, como Amazon RDS, DynamoDB, Azure BD, Amazon Redshift, Amazon Aurora, entre outros
+
+O que vemos também nas empresas é juntar o modelo relacional com outros modelos. Não apenas um único modelo de dados.
