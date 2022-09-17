@@ -76,7 +76,7 @@ O SGBD é um software modular.
 
 Exemplo de uma estrutura em um projeto de software.
 
-![db.png](/Imagens\db.png)
+![db.png](Imagens/db.png)
 
 ### Metadados
 
@@ -98,9 +98,9 @@ IBM criou o Sistema R, com base em DB2.
 
 ### Cronologia
 
-![timeline1](/Imagens\timeline1.png)
+![timeline1](Imagens/timeline1.png)
 
-![](/Imagens/timeline2.png)
+![](Imagens/timeline2.png)
 
 ### Modelo Hierárquico
 
@@ -113,7 +113,7 @@ Utilizado no BDDBase, Cobol, Clipper, Fox Pro, entre outros.
 
 Exemplo de modelo hierárquico:
 
-![hierarquico](/Imagens\hierarquico.png)
+![hierarquico](Imagens/hierarquico.png)
 
 ### Modelo em rede
 
@@ -123,7 +123,7 @@ Exemplo de modelo hierárquico:
 
 Exemplo de modelo em rede:
 
-![rede](/Imagens\rede.png)
+![rede](Imagens/rede.png)
 
 Por que da criação do modelo relacional? Os modelos acima não são aplicáveis em todos os casos e são mais complexos. 
 
@@ -170,7 +170,7 @@ Pode haver mais de um SGBD na mesma empresa e, para isso, necessitamos de integr
 
 Exemplo de integração:
 
-![sibbr](/Imagens\sibbr.png)
+![sibbr](Imagens/sibbr.png)
 
 ## SGBDs mais utilizados no mercado
 
@@ -206,11 +206,11 @@ Armazena os dados de forma centralizada. Interface simples, estrutura via HTTP. 
 
 Mais simples, acessível, tem integração com o pacote Office.
 
-* MariaDB
+* [MariaDB](mariadb.org)
 
 Projeto derivado do MySQL. Método de consulta mais otimizado que o MySQL.
 
-* Cassandra
+* [Cassandra](https://cassandra.apache.org/)
 
 Banco NoSQL, open source, baseado em colunas. Para gerenciamento de larga escala. Inicialmente desenvolvido pelo Facebook.
 

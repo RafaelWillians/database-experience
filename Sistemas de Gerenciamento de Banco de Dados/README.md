@@ -77,7 +77,7 @@ Transaction-driven
 
 
 
-![oltp-olap](/Imagens\oltp-olap.png)
+![oltp-olap](Imagens/oltp-olap.png)
 
 OLAP = Online Analytical Processing
 
