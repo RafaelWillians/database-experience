@@ -53,8 +53,3 @@ A DIO atribui prazos para termos convívio com uso de deadlines nas entregas dos
 * Comunidade colaborativa
 
 ## [Link do Suporte Técnico](help.dio.me)
-
-
-
-
-
