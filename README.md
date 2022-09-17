@@ -27,4 +27,5 @@ Este é o primeiro bootcamp sobre Banco de Dados da DIO para profissionais que p
 * [Aula Inaugural](Aula%20Inaugural/)
 * [Introdução a Banco de Dados](Introdução%20a%20Banco%20de%20Dados/)
 * [Sistemas de Gerenciamento de Banco de Dados](Sistemas%20de%20Gerenciamento%20de%20Banco%20de%20Dados/)
+* [Modelagem de Dados para Banco de Dados](Modelagem%20de%20Dados%20para%20Banco%20de%20Dados/)
 
