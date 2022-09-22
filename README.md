@@ -28,4 +28,7 @@ Este é o primeiro bootcamp sobre Banco de Dados da DIO para profissionais que p
 * [Introdução a Banco de Dados](Introdução%20a%20Banco%20de%20Dados/)
 * [Sistemas de Gerenciamento de Banco de Dados](Sistemas%20de%20Gerenciamento%20de%20Banco%20de%20Dados/)
 * [Modelagem de Dados para Banco de Dados](Modelagem%20de%20Dados%20para%20Banco%20de%20Dados/)
+* [Arquitetura de Banco de Dados](Arquitetura%20de%20Banco%20de%20Dados/)
+* [Fundamentos de Modelagem e Projeto de Banco de Dados](Fundamentos%20de%20Modelagem%20e%20Projeto%20de%20Banco%20de%20Dados/)
+* Modelo de Entidade Relacionamento com Banco de Dados
 
